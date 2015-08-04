@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[Janto's Blog]]></title>
+  
+  <link href="/hexo_blog/atom.xml" rel="self"/>
+  <link href="http://wztboyking.github.io/hexo_blog/hexo_blog//"/>
+  <updated>2015-08-04T15:45:58.000Z</updated>
+  <id>http://wztboyking.github.io/hexo_blog/hexo_blog//</id>
+  
+  <author>
+    <name><![CDATA[Janto]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[jekyllbootstrap-error]]></title>
+    <link href="http://wztboyking.github.io/hexo_blog/hexo_blog/2015/08/04/error/"/>
+    <id>http://wztboyking.github.io/hexo_blog/hexo_blog/2015/08/04/error/</id>
+    <published>2015-08-04T15:45:04.000Z</published>
+    <updated>2015-08-04T15:45:58.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="问题">问题</h3><p>The page build failed with the following error:</p>
+<p>The submodule <code>_theme_packages/the-program</code> was not properly initialized with a <code>.gitmodules</code> file. For more information, see <a href="https://help.github.com/articles/page-build-failed-missing-submodule" target="_blank" rel="external">https://help.github.com/articles/page-build-failed-missing-submodule</a>.</p>
+<p>If you have any questions you can contact us by replying to this email.</p>
+<h3 id="解决办法">解决办法</h3><p>  git rm -r –cached _theme_packages<br>  然后在 .gitignore 加入 _theme_packages 文件夹:<br>  <pre><br>    *.swp<br>    _site<br>    _theme_packages<br>  </pre><br>  Finally, commit and push to GitHub</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="问题">问题</h3><p>The page build failed with the following error:</p>
+<p>The submodule <code>_theme_packages/the-program</code> was not ]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[安装hexo]]></title>
+    <link href="http://wztboyking.github.io/hexo_blog/hexo_blog/2015/08/04/%E5%AE%89%E8%A3%85hexo/"/>
+    <id>http://wztboyking.github.io/hexo_blog/hexo_blog/2015/08/04/安装hexo/</id>
+    <published>2015-08-04T15:40:22.000Z</published>
+    <updated>2015-08-04T15:40:22.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+</feed>
