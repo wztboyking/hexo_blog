@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Janto&#39;s Blog</title>
+  <title>async异部流程控制模块 | Janto&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Janto's Blog">
-<meta property="og:url" content="http://wztboyking.github.io/hexo_blog/index.html">
+  <meta name="description" content="async主要实现了三个部分的流程控制功能：
+  集合: Collections  流程控制: Control Flow  工具类: Utils
+1). 集合: Collections  detect: 用于取得集合中满足条件的第一个元素。  sortBy: 对集合内的元素进行排序，依据每个元素进行某异步操作后产生的值，从小到大排序。  some: 当集合中是否有至少一个元素满足条件时，最终cal">
+<meta property="og:type" content="article">
+<meta property="og:title" content="async异部流程控制模块">
+<meta property="og:url" content="http://wztboyking.github.io/hexo_blog/2015/08/10/async异部流程控制模块/index.html">
 <meta property="og:site_name" content="Janto's Blog">
-<meta property="og:description">
+<meta property="og:description" content="async主要实现了三个部分的流程控制功能：
+  集合: Collections  流程控制: Control Flow  工具类: Utils
+1). 集合: Collections  detect: 用于取得集合中满足条件的第一个元素。  sortBy: 对集合内的元素进行排序，依据每个元素进行某异步操作后产生的值，从小到大排序。  some: 当集合中是否有至少一个元素满足条件时，最终cal">
+<meta property="og:updated_time" content="2015-08-10T08:20:45.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Janto's Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="async异部流程控制模块">
+<meta name="twitter:description" content="async主要实现了三个部分的流程控制功能：
+  集合: Collections  流程控制: Control Flow  工具类: Utils
+1). 集合: Collections  detect: 用于取得集合中满足条件的第一个元素。  sortBy: 对集合内的元素进行排序，依据每个元素进行某异步操作后产生的值，从小到大排序。  some: 当集合中是否有至少一个元素满足条件时，最终cal">
   
     <link rel="alternative" href="/hexo_blog/atom.xml" title="Janto&#39;s Blog" type="application/atom+xml">
   
@@ -59,9 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-async异部流程控制模块" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-async异部流程控制模块" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/hexo_blog/2015/08/10/async异部流程控制模块/" class="article-date">
   <time datetime="2015-08-10T08:16:06.000Z" itemprop="datePublished">2015-08-10</time>
@@ -74,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/hexo_blog/2015/08/10/async异部流程控制模块/">async异部流程控制模块</a>
+    <h1 class="article-title" itemprop="name">
+      async异部流程控制模块
     </h1>
   
 
@@ -98,51 +103,20 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-error" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/hexo_blog/2015/08/04/error/" class="article-date">
-  <time datetime="2015-08-04T15:45:04.000Z" itemprop="datePublished">2015-08-04</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/hexo_blog/2015/08/04/error/">jekyllbootstrap-error</a>
-    </h1>
+    <a href="/hexo_blog/2015/08/04/error/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">jekyllbootstrap-error</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="问题">问题</h3><p>The page build failed with the following error:</p>
-<p>The submodule <code>_theme_packages/the-program</code> was not properly initialized with a <code>.gitmodules</code> file. For more information, see <a href="https://help.github.com/articles/page-build-failed-missing-submodule" target="_blank" rel="external">https://help.github.com/articles/page-build-failed-missing-submodule</a>.</p>
-<p>If you have any questions you can contact us by replying to this email.</p>
-<h3 id="解决办法">解决办法</h3><p>  git rm -r –cached _theme_packages<br>  然后在 .gitignore 加入 _theme_packages 文件夹:<br>  <pre><br>    *.swp<br>    _site<br>    _theme_packages<br>  </pre><br>  Finally, commit and push to GitHub</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://wztboyking.github.io/hexo_blog/2015/08/04/error/" data-id="cid5nimh400011mfyj4moeduw" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
 
-
-  
-  
 </section>
         
           <aside id="sidebar">
